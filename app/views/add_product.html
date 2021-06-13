@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog produktów</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="text-center">
+                    <a href="/">Katalog</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <div class="container">
+            <div class="box-nav d-flex-justify-beteen">
+                <a href="/" class="border">
+                <span>>Katalog</span></a> 
+            </div>
+
+        </div>
+    </main>
+
+    <form method="POST" id="update_product">
+       <div>
+           <div class="form-group">
+               <label for="name">Name</label>
+               <input type="hidden" name="id" value="">
+               <input type="text" name="name">
+           </div>
+           <div class="form-group">
+            <label for="price">Cena</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="price">
+        </div>
+        <div class="form-group">
+            <label for="producer">Producent</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="producer">
+        </div>
+        <div class="form-group">
+            <label for="category">Kategoria</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="category">
+        </div>
+       </div>
+
+    </form>
+</body>
+</html>
